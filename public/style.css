@@ -1,0 +1,139 @@
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.apple-header {
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.apple-header h1 {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #000;
+  margin: 0;
+}
+
+.apple-btn {
+  background-color: #007AFF;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 1em;
+  padding: 8px 16px;
+  text-shadow: none;
+  transition: background-color 0.2s ease;
+}
+
+.apple-btn:hover {
+  background-color: #005BB5;
+}
+
+.apple-danger {
+  background-color: #FF2D55;
+}
+
+.apple-danger:hover {
+  background-color: #CC2B4A;
+}
+
+.apple-content {
+  padding: 20px;
+}
+
+.apple-section {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.apple-title {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.apple-field {
+  margin-bottom: 15px;
+}
+
+.apple-field label {
+  font-size: 0.9em;
+  color: #6e6e6e;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.apple-field input,
+.apple-field select {
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  transition: border-color 0.2s ease;
+}
+
+.apple-field input:focus,
+.apple-field select:focus {
+  border-color: #007AFF;
+  outline: none;
+}
+
+.apple-list {
+  margin: 10px 0;
+}
+
+.apple-list li {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.apple-list li h3 {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #000;
+  margin: 0 0 5px;
+}
+
+.apple-list li p {
+  font-size: 0.9em;
+  color: #6e6e6e;
+  margin: 0;
+}
+
+.apple-list li p strong {
+  color: #333;
+}
+
+.apple-list .summary {
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
+
+.apple-footer {
+  background-color: #f7f7f7;
+  border-top: 1px solid #e5e5e5;
+  padding: 10px;
+  text-align: center;
+}
+
+.apple-footer h4 {
+  font-size: 0.9em;
+  color: #6e6e6e;
+  margin: 0;
+}
